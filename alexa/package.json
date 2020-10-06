@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "alexa-sdk": "^1.0.7",
-    "request": "^2.81.0"
+    "ask-sdk": "^2.9.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.6"
   }
 }
