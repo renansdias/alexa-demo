@@ -5,7 +5,7 @@ const {
 	DeployIntentHandler,
 	HelpIntentHandler,
 	CancelAndStopIntentHandler
-} = require('./models/handlers')
+} = require('./handlers')
 
 let skill;
 
