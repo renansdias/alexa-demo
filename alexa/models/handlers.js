@@ -38,7 +38,7 @@ exports.DeployIntentHandler = {
 		console.log(response)
 
 		if (response === 201) {
-			speechText = `I was able to successfully trigger Jenkins to deploy the landing page to ${deployEnv}`
+			speechText = `I was able to successfully trigger Jenkins to deploy the landing page to ${deployEnv}. I hope the build succeeds. It would be funny if it failed. haha.`
 		} else {
 			speechText = 'Unfortunately there was an error when triggering Jenkins. Go to the Jenkins console to check what happened.'
 		}
